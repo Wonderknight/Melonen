@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: Merriewaether, sans-serif;
+}
+
+body {
+    background-image: url(./Material/Melonen_Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: 'Patrick Hand', cursive;    
+}
+
+@media only screen and (max-width: 1250px) {
+
+}
+
+@media only screen and (max-width: 900px) {
+    
+}
+
+@media only screen and (max-width: 450px) {
+    
+}
+
+/*Header*/
+
+header {
+    display: inline-flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(8, 184, 102);
+    align-items: center;    
+    justify-content: space-between;   
+}
+
+.Button img {
+    height: 50px;
+    width: 50px;
+}
+
+.Menü, a {
+    margin: 10px;
+}
+
+/*Titel*/
+
+.container1 {
+    height: 50rem;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin: 1rem;
+    background-image: url(./Material/vieleMelonen.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border: solid 1.5rem green;   
+}
+
+.box1 {
+    background-color: rgb(7, 209, 7); 
+    width: 50%;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300%;       
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+.Gewinner {
+    border-bottom: solid green .5rem;
+    border-top: solid green .5rem;
+    margin-top: 10%;
+}
+
+.Gewinner h2 {
+    font-size: 3rem;
+    text-align: center;
+    background-color: antiquewhite;
+    width: 100%;}
+
+.Gewinner h3 {
+    font-family: Cabin;
+}
+
+#Melonen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 6%;    
+    border-bottom: green solid 2rem;
+}
+
+#Melonen img {
+    width: 40%;
+    border: black solid .5rem;
+}
+
+#Melone, p {
+    margin-left: 3%;
+    width: 60%;
+    background-color: white;
+    font-size: 170%;
+    border: solid black .5rem;
+    padding: 1%;
+}
+
+.Events h2 {
+    text-align: center;
+    font-size: 500%;
+    margin: 6% 0;
+    background-color: white;
+    border-top: solid 2rem rgb(196, 66, 66);
+    border-bottom: solid 2rem rgb(196, 66, 66);
+}
+
+.Events {
+    width: 100%;   
+    background-color: white;
+    border-bottom: solid 2rem rgb(196, 66, 66);
+}
+
+.event {
+    display: flex;
+    justify-content: space-around;
+}
+
+.event figcaption {
+    font-size: 150%;
+    font-weight: 600;
+}
+
+.event1 {
+    width: 50%;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;  
+    padding: .5rem;
+}
+
+.event1 img {    
+    width: 50%;
+    height: 40%;
+}
+
+.event2 {
+    width: 50%;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;  
+    padding: .5rem;
+}
+
+.event2 img {
+    width: 50%;
+    height: 40%;
+}
+
+.event1, .event2 {
+    margin: 0 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-bottom: 20px;
+    background-color: rgb(163, 40, 40);
+    font-size: 200%;
+}
